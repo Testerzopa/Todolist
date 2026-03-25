@@ -1,0 +1,44 @@
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.todolist {
+    text-align: center;
+}
+
+input {
+    padding: 16px;
+    border-radius: 40px;
+    font-size: 16px;
+}
+
+ul li {
+    list-style: none;
+    margin: 10px auto;
+}
+
+.button-add {
+    background-color: red;
+    padding: 16px;
+    border-radius: 40px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-add:hover {
+    background-color: rgb(78, 0, 0);
+    color: whitesmoke;
+}
+
+.button-add:active {
+    background-color: white;
+    color: rgb(0, 0, 0);
+}
+
+.checked {
+    text-decoration: line-through;
+}
