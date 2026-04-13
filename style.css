@@ -4,6 +4,19 @@ body {
     justify-content: center;
 }
 
+.dark-mode {
+    background: black;
+    color: white;
+}
+
+#btn-color{
+    padding: 2px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
 .todolist {
     text-align: center;
 }
@@ -41,4 +54,17 @@ ul li {
 
 .checked {
     text-decoration: line-through;
+}
+
+.btn-delete {
+    background-color: red;
+    border: none;
+    border-radius: 100px;
+    padding: 1px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.btn-delete:hover {
+    background-color: rgb(95, 1, 1);
 }
