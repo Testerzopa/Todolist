@@ -14,7 +14,7 @@
 
 1.  **Clone โปรเจกต์นี้ไปยังเครื่องของคุณ:**
     ```bash
-    git clone [https://github.com/Testerzopa/promtlearnchi.git](https://github.com/Testerzopa/Todolist.git)
+    git clone https://github.com/Testerzopa/Todolist.git
     ```
 2.  **เปิดใช้งาน:**
     *   ดับเบิ้ลคลิกที่ไฟล์ `index.html` เพื่อเปิดใช้งานบนบราวเซอร์ได้ทันที
